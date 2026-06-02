@@ -6,6 +6,7 @@ import finalCouple from "@/assets/final-couple.jpg";
 import showcase1 from "@/assets/showcase-1.jpg";
 import showcase2 from "@/assets/showcase-2.jpg";
 import showcase3 from "@/assets/showcase-3.jpg";
+import sentadaComAlbum from "@/assets/sentada-com-album.png";
 import clienteCopa from "@/assets/cliente-copa.jpg";
 import camisaCopa from "@/assets/camisa-copa.jpg";
 import penelopePhoto from "@/assets/penelope.jpg";
@@ -698,122 +699,16 @@ function LandingPage() {
             ))}
           </div>
 
-          {/* Mockup WhatsApp — print real de cliente */}
+          {/* Imagem + texto */}
           <div className="mt-20 flex flex-col md:flex-row items-center gap-16 justify-center">
-            {/* iPhone — 9:16 */}
-            <div className="shrink-0" style={{ width: 162, height: 288, transform: "rotate(-1.5deg)", filter: "drop-shadow(0 18px 40px rgba(0,0,0,0.55))", position: "relative" }}>
-              {/* Corpo do iPhone */}
-              <div style={{ background: "linear-gradient(145deg, #3d3d3d 0%, #1a1410 50%, #2e2e2e 100%)", borderRadius: 36, padding: "9px 7px 14px", boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.13), 0 0 0 1px rgba(0,0,0,0.9)", position: "relative", height: "100%", boxSizing: "border-box" }}>
-                {/* Botão silencioso */}
-                <div style={{ position: "absolute", left: -3, top: 40, width: 3, height: 12, background: "linear-gradient(to right, #5a5a5a, #333)", borderRadius: "2px 0 0 2px" }} />
-                {/* Volume + */}
-                <div style={{ position: "absolute", left: -3, top: 58, width: 3, height: 18, background: "linear-gradient(to right, #5a5a5a, #333)", borderRadius: "2px 0 0 2px" }} />
-                {/* Volume - */}
-                <div style={{ position: "absolute", left: -3, top: 82, width: 3, height: 18, background: "linear-gradient(to right, #5a5a5a, #333)", borderRadius: "2px 0 0 2px" }} />
-                {/* Power */}
-                <div style={{ position: "absolute", right: -3, top: 68, width: 3, height: 38, background: "linear-gradient(to left, #5a5a5a, #333)", borderRadius: "0 2px 2px 0" }} />
-
-                {/* Tela */}
-                <div style={{ background: "#000", borderRadius: 28, overflow: "hidden", height: "100%" }}>
-
-                  {/* HEADER: Dynamic Island + status + WhatsApp */}
-                  <div style={{ background: "#075E54" }}>
-                    {/* Dynamic Island */}
-                    <div style={{ height: 28, display: "flex", alignItems: "center", justifyContent: "center", paddingTop: 4 }}>
-                      <div style={{ width: 64, height: 18, background: "#000", borderRadius: 14 }} />
-                    </div>
-                    {/* Status bar */}
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1px 16px 4px" }}>
-                      <span style={{ color: "white", fontSize: 11, fontWeight: 700, letterSpacing: "-0.2px", fontFamily: "system-ui, -apple-system, sans-serif" }}>10:47</span>
-                      <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
-                        <div style={{ display: "flex", alignItems: "flex-end", gap: 1 }}>
-                          {[4, 7, 10, 12].map((h, i) => (
-                            <div key={i} style={{ width: 2.5, height: h, background: i < 3 ? "white" : "rgba(255,255,255,0.3)", borderRadius: 1 }} />
-                          ))}
-                        </div>
-                        <svg width="13" height="9" viewBox="0 0 15 11" fill="white">
-                          <circle cx="7.5" cy="9.5" r="1.5" />
-                          <path d="M4.5 6.8a4.2 4.2 0 016 0l1-1a5.7 5.7 0 00-8 0l1 1z" />
-                          <path d="M1.8 4.1a8 8 0 0111.4 0l1-1A9.5 9.5 0 00.8 3.1l1 1z" />
-                        </svg>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                          <div style={{ width: 18, height: 9, border: "1.5px solid rgba(255,255,255,0.75)", borderRadius: 2.5, padding: "1px 1.5px" }}>
-                            <div style={{ height: "100%", width: "78%", background: "white", borderRadius: 1 }} />
-                          </div>
-                          <div style={{ width: 1.5, height: 4, background: "rgba(255,255,255,0.55)", borderRadius: "0 1px 1px 0", marginLeft: 1 }} />
-                        </div>
-                      </div>
-                    </div>
-                    {/* Cabeçalho WhatsApp */}
-                    <div style={{ display: "flex", alignItems: "center", gap: 6, padding: "3px 11px 9px" }}>
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="white" opacity={0.9}><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
-                      <div style={{ width: 30, height: 30, borderRadius: "50%", background: "linear-gradient(135deg, #25D366, #128C7E)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, flexShrink: 0, border: "1px solid rgba(255,255,255,0.2)" }}>🏆</div>
-                      <div style={{ flex: 1, minWidth: 0 }}>
-                        <p style={{ color: "white", fontSize: 11.5, fontWeight: 600, margin: 0, lineHeight: 1.2, fontFamily: "system-ui, -apple-system, sans-serif", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>A Copa da Nossa História</p>
-                        <p style={{ color: "rgba(255,255,255,0.65)", fontSize: 9.5, margin: 0, lineHeight: 1.3 }}>online agora</p>
-                      </div>
-                      <div style={{ display: "flex", gap: 12, color: "white" }}>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17 10.5V7a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h12a1 1 0 001-1v-3.5l4 4v-11l-4 4z"/></svg>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.01L6.6 10.8z"/></svg>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* ÁREA DO CHAT */}
-                  <div style={{ background: "#E5DDD5", backgroundImage: "radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px)", backgroundSize: "15px 15px", padding: "7px 8px 5px" }}>
-                    {/* Separador de data */}
-                    <div style={{ display: "flex", justifyContent: "center", marginBottom: 6 }}>
-                      <span style={{ background: "rgba(225,221,215,0.97)", color: "#54656f", fontSize: 9.5, fontWeight: 500, padding: "2px 8px", borderRadius: 6, boxShadow: "0 1px 1px rgba(11,20,26,0.1)" }}>HOJE</span>
-                    </div>
-
-                    {/* Mensagem recebida com foto */}
-                    <div style={{ display: "flex", justifyContent: "flex-start", marginBottom: 3 }}>
-                      <div style={{ background: "white", borderRadius: "8px 8px 8px 2px", overflow: "hidden", maxWidth: "82%", boxShadow: "0 1px 2px rgba(11,20,26,0.14)" }}>
-                        <img src={clienteCopa} alt="Foto da cliente" style={{ width: 128, height: 98, objectFit: "cover", display: "block" }} />
-                        <div style={{ padding: "4px 7px 4px" }}>
-                          <p style={{ margin: 0, fontSize: 10.5, color: "#111b21", lineHeight: 1.4, fontFamily: "system-ui, -apple-system, sans-serif" }}>meu marido ENTROU EM CHOQUE quando viu 😭💚🏆</p>
-                          <p style={{ margin: "1px 0 0", fontSize: 9, color: "#667781", textAlign: "right" }}>10:47</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Mensagem recebida texto */}
-                    <div style={{ display: "flex", justifyContent: "flex-start", marginBottom: 3 }}>
-                      <div style={{ background: "white", borderRadius: "8px 8px 8px 2px", padding: "5px 8px 4px", maxWidth: "84%", boxShadow: "0 1px 2px rgba(11,20,26,0.14)" }}>
-                        <p style={{ margin: 0, fontSize: 10.5, color: "#111b21", lineHeight: 1.4, fontFamily: "system-ui, -apple-system, sans-serif" }}>nao acreditei que custou tao barato... valeu MUITO a pena 🥹❤️</p>
-                        <p style={{ margin: "1px 0 0", fontSize: 9, color: "#667781", textAlign: "right" }}>10:48</p>
-                      </div>
-                    </div>
-
-                    {/* Mensagem enviada */}
-                    <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 3 }}>
-                      <div style={{ background: "#D9FDD3", borderRadius: "8px 8px 2px 8px", padding: "5px 8px 4px", maxWidth: "84%", boxShadow: "0 1px 2px rgba(11,20,26,0.14)" }}>
-                        <p style={{ margin: 0, fontSize: 10.5, color: "#111b21", lineHeight: 1.4, fontFamily: "system-ui, -apple-system, sans-serif" }}>Que lindo!! Fico muito feliz pela reação dele 💚🏆</p>
-                        <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", gap: 2, marginTop: 1 }}>
-                          <p style={{ margin: 0, fontSize: 9, color: "#667781" }}>10:49</p>
-                          <svg width="13" height="9" viewBox="0 0 16 11" fill="#53BDEB"><path d="M15.01.227l-.637-.636a.45.45 0 00-.636 0L7.008 7.322 4.43 4.743a.45.45 0 00-.637 0l-.636.636 3.85 3.851 7.003-9.003zM11.38.227l-.636-.636a.45.45 0 00-.637 0L6.37 3.974l.636.637L11.38.227zM.807 7.986l-.636.636 1.61 1.61.636-.636-1.61-1.61z"/></svg>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div style={{ height: 3 }} />
-                  </div>
-
-                  {/* Barra de input */}
-                  <div style={{ background: "#F0F2F5", padding: "6px 8px", display: "flex", alignItems: "center", gap: 6 }}>
-                    <div style={{ fontSize: 17, color: "#8696A0", lineHeight: 1 }}>☺</div>
-                    <div style={{ flex: 1, background: "white", borderRadius: 18, padding: "5px 10px", fontSize: 10.5, color: "#8696A0", fontFamily: "system-ui, -apple-system, sans-serif" }}>Mensagem...</div>
-                    <div style={{ fontSize: 14, color: "#8696A0" }}>📎</div>
-                    <div style={{ width: 32, height: 32, borderRadius: "50%", background: "#00A884", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }}>🎤</div>
-                  </div>
-
-                  {/* Home indicator */}
-                  <div style={{ background: "white", display: "flex", justifyContent: "center", padding: "4px 0 7px" }}>
-                    <div style={{ width: 70, height: 3, background: "#000", borderRadius: 2, opacity: 0.85 }} />
-                  </div>
-                </div>
-              </div>
-              <p style={{ textAlign: "center", marginTop: 6, fontSize: 8.5, color: "#c4a0ac", fontStyle: "italic" }}>Print real de uma cliente · Nome preservado</p>
+            <div className="shrink-0 relative">
+              <div className="absolute -inset-4 rounded-3xl opacity-20 blur-2xl" style={{ background: "#e8a0b0" }} />
+              <img
+                src={sentadaComAlbum}
+                alt="Penélope com o álbum da Copa"
+                className="relative rounded-2xl"
+                style={{ width: 280, boxShadow: "0 24px 64px rgba(176,80,112,0.2)", border: "3px solid rgba(176,80,112,0.15)" }}
+              />
             </div>
 
             <div className="max-w-sm text-center md:text-left">
@@ -1011,7 +906,7 @@ function LandingPage() {
               </div>
               <p className="text-xs mb-6" style={{ color: "#9a8a70" }}>Pagamento único</p>
 
-              <a href="#" className="block text-center rounded-full py-3 text-sm font-semibold transition-transform hover:scale-[1.02]" style={{ border: "1.5px solid #b05070", color: "#b05070" }}>
+              <a href="https://pay.kirvano.com/ed40e7de-0767-4152-bf5f-120f9e9dc729" target="_blank" rel="noopener noreferrer" className="block text-center rounded-full py-3 text-sm font-semibold transition-transform hover:scale-[1.02]" style={{ border: "1.5px solid #b05070", color: "#b05070" }}>
                 Quero o Álbum Basic
               </a>
             </div>
@@ -1061,7 +956,7 @@ function LandingPage() {
               </div>
               <p className="text-xs mb-6" style={{ color: "#9a8a70" }}>Pagamento único · Melhor custo-benefício</p>
 
-              <a href="#" className="block text-center rounded-full py-3 text-sm font-bold transition-transform hover:scale-[1.02]" style={{ background: "#b05070", color: "white" }}>
+              <a href="https://pay.kirvano.com/2d7ac7a8-860e-41d3-9f39-0e6ab11d8552" target="_blank" rel="noopener noreferrer" className="block text-center rounded-full py-3 text-sm font-bold transition-transform hover:scale-[1.02]" style={{ background: "#b05070", color: "white" }}>
                 Quero o Álbum Premium
               </a>
             </div>
