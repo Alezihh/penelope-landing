@@ -217,7 +217,7 @@ function LandingPage() {
       {/* HERO — Split layout */}
       <section className="relative flex items-center overflow-hidden" style={{ background: "#ffffff", minHeight: "100vh" }}>
 
-        {/* Foto do casal — lado direito, full height */}
+        {/* Foto do casal — lado direito, full height — desktop only */}
         <div className="absolute right-0 top-0 h-full hidden md:block" style={{ width: "56%" }}>
           <img
             src={heroCouple}
@@ -225,11 +225,10 @@ function LandingPage() {
             className="h-full w-full object-cover object-center"
             style={{ opacity: 0.15 }}
           />
-          {/* Fade para a esquerda */}
           <div className="absolute inset-0" style={{ background: "linear-gradient(to right, #ffffff 0%, #ffffff 4%, rgba(255,255,255,0.82) 22%, rgba(255,255,255,0.3) 50%, transparent 75%)" }} />
         </div>
 
-        {/* Penélope com o álbum — flutuando */}
+        {/* Penélope com o álbum — desktop: flutuando à direita */}
         <div className="absolute hidden md:flex items-center justify-center" style={{ right: 0, top: 0, width: "48%", height: "100%" }}>
           <img
             src={penelopeCopa}
@@ -252,8 +251,6 @@ function LandingPage() {
         <svg className="absolute pointer-events-none hidden md:block" style={{ left: "38%", bottom: "15%", width: 160, height: 120, opacity: 0.35 }} viewBox="0 0 160 120" fill="none">
           <path d="M5 100 C 40 70, 90 40, 155 10" stroke="#C9900A" strokeWidth="1.2" strokeLinecap="round"/>
         </svg>
-
-        {/* Trophy outline */}
         <svg className="absolute pointer-events-none hidden md:block" style={{ left: "43%", top: "28%", width: 68, height: 76, opacity: 0.28 }} viewBox="0 0 68 76" fill="none" stroke="#C9900A" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
           <rect x="16" y="3" width="36" height="3" rx="1"/>
           <path d="M16 6v20c0 11 8 19 18 21v4h-7v4h18v-4h-7v-4c10-2 18-10 18-21V6"/>
@@ -262,14 +259,12 @@ function LandingPage() {
           <line x1="18" y1="72" x2="50" y2="72"/>
           <line x1="12" y1="76" x2="56" y2="76"/>
         </svg>
-
-        {/* Corações decorativos */}
         <span className="absolute pointer-events-none hidden md:block" style={{ left: "50%", top: "21%", fontSize: 20, color: "#C9900A", opacity: 0.5, lineHeight: 1 }}>♡</span>
         <span className="absolute pointer-events-none hidden md:block" style={{ left: "46.5%", top: "30%", fontSize: 15, color: "#b05070", opacity: 0.7, lineHeight: 1 }}>♥</span>
         <span className="absolute pointer-events-none hidden md:block" style={{ left: "52%", top: "37%", fontSize: 9, color: "#C9900A", opacity: 0.45 }}>✦</span>
         <span className="absolute pointer-events-none hidden md:block" style={{ left: "44.5%", top: "16%", fontSize: 7, color: "#C9900A", opacity: 0.38 }}>✦</span>
 
-        {/* Conteúdo principal — lado esquerdo */}
+        {/* Conteúdo principal */}
         <div className="relative z-10 mx-auto max-w-6xl w-full px-6" style={{ paddingTop: "7rem", paddingBottom: "4rem" }}>
           <div style={{ maxWidth: 510 }}>
 
@@ -292,6 +287,19 @@ function LandingPage() {
               Transformamos as fotos mais especiais do seu relacionamento em um álbum de figurinhas personalizado, que conta a trajetória de vocês como uma verdadeira Copa do Mundo.
             </p>
 
+            {/* Penélope — mobile only, abaixo do texto */}
+            <div className="flex md:hidden justify-center mt-8">
+              <img
+                src={penelopeCopa}
+                alt="Penélope com o álbum da Copa"
+                style={{
+                  width: "75%",
+                  maxWidth: 300,
+                  borderRadius: 20,
+                  boxShadow: "0 16px 48px rgba(0,0,0,0.12)",
+                }}
+              />
+            </div>
 
             {/* CTAs */}
             <div className="mt-7 flex flex-wrap items-center gap-3">
