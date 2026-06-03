@@ -1005,7 +1005,7 @@ function LandingPage() {
                 Prazer, eu sou Penélope. <span style={{ color: "#C9900A" }}>✨</span>
               </h2>
               <div className="space-y-4 text-sm leading-relaxed" style={{ color: "#6b5a48" }}>
-                <p>Tenho 24 anos e sou apaixonada por tudo o que desperta criatividade, beleza e significado. Amo fotografia, design, moda e a capacidade que uma imagem tem de eternizar momentos e contar histórias.</p>
+                <p>Tenho 27 anos e sou apaixonada por tudo o que desperta criatividade, beleza e significado. Amo fotografia, design, moda e a capacidade que uma imagem tem de eternizar momentos e contar histórias.</p>
                 <p>Foi dessa paixão que nasceu o Álbum <span style={{ color: "#b05070", fontWeight: 600 }}>"A Copa da Nossa História"</span> — uma ideia muito pessoal. Eu queria presentear meu namorado com algo que contasse a nossa trajetória de um jeito divertido e inesquecível. Inspirada nos álbuns da Copa, transformei nossa história em uma coleção única, cheia de memórias e significado.</p>
                 <p>O resultado foi tão especial que decidi compartilhar com outros casais, transformando uma ideia feita com amor em um presente capaz de emocionar para sempre.</p>
                 <p className="font-display italic pt-1" style={{ color: "#9a7080" }}>
