@@ -418,6 +418,12 @@ function LandingPage() {
           color: "#6b5a48",
           maxWidth: 420
         }, children: "Transformamos as fotos mais especiais do seu relacionamento em um álbum de figurinhas personalizado, que conta a trajetória de vocês como uma verdadeira Copa do Mundo." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex md:hidden justify-center mt-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: penelopeCopa, alt: "Penélope com o álbum da Copa", style: {
+          width: "75%",
+          maxWidth: 300,
+          borderRadius: 20,
+          boxShadow: "0 16px 48px rgba(0,0,0,0.12)"
+        } }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-7 flex flex-wrap items-center gap-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#comprar", className: "inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold transition-transform hover:scale-[1.02]", style: {
             background: "linear-gradient(135deg, #C9900A 0%, #C89A08 100%)",
@@ -1216,7 +1222,7 @@ function LandingPage() {
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4 text-sm leading-relaxed", style: {
           color: "#6b5a48"
         }, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Tenho 24 anos e sou apaixonada por tudo o que desperta criatividade, beleza e significado. Amo fotografia, design, moda e a capacidade que uma imagem tem de eternizar momentos e contar histórias." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Tenho 27 anos e sou apaixonada por tudo o que desperta criatividade, beleza e significado. Amo fotografia, design, moda e a capacidade que uma imagem tem de eternizar momentos e contar histórias." }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
             "Foi dessa paixão que nasceu o Álbum ",
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: {

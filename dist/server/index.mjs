@@ -85,82 +85,82 @@ const headers = ((m) => function headersRouteRule(event) {
   }
 });
 const assets = {
-  "/favicon.png": {
-    "type": "image/png",
-    "etag": '"5e943-JqVCNUUK6ucGARpRsw7vVuhxQM4"',
-    "mtime": "2026-06-02T21:12:20.504Z",
-    "size": 387395,
-    "path": "../client/favicon.png"
+  "/assets/index-vo8THbOq.js": {
+    "type": "text/javascript; charset=utf-8",
+    "etag": '"15a6a-0/LZXWVqlFx/o2IcWizdEbrTTfc"',
+    "mtime": "2026-06-03T02:06:57.377Z",
+    "size": 88682,
+    "path": "../client/assets/index-vo8THbOq.js"
   },
   "/assets/hero-casal-album-DEzqKqtA.jpg": {
     "type": "image/jpeg",
     "etag": '"5daa8-6OkPb2vsnCZRytrT8FBloP+4siY"',
-    "mtime": "2026-06-02T21:12:18.370Z",
+    "mtime": "2026-06-03T02:06:57.272Z",
     "size": 383656,
     "path": "../client/assets/hero-casal-album-DEzqKqtA.jpg"
   },
-  "/assets/index-CqgXKOPx.js": {
+  "/assets/index-CD2zr42w.js": {
     "type": "text/javascript; charset=utf-8",
-    "etag": '"1598e-BFa7BIag0hb4waEztk4v11VUEXo"',
-    "mtime": "2026-06-02T21:12:18.370Z",
-    "size": 88462,
-    "path": "../client/assets/index-CqgXKOPx.js"
+    "etag": '"55745-LZfi9a2YPzbnQV1qL04hIJdyCgk"',
+    "mtime": "2026-06-03T02:06:57.273Z",
+    "size": 350021,
+    "path": "../client/assets/index-CD2zr42w.js"
   },
   "/assets/penelope-CT8HYgfN.jpg": {
     "type": "image/jpeg",
     "etag": '"23883-JFfeVjbc0mYYQmf4SaapCP/hs3g"',
-    "mtime": "2026-06-02T21:12:18.273Z",
+    "mtime": "2026-06-03T02:06:57.272Z",
     "size": 145539,
     "path": "../client/assets/penelope-CT8HYgfN.jpg"
   },
-  "/assets/index-DHprBXj6.js": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": '"55745-fCLgeiD6BJTThyCfJSfV2sEqlpY"',
-    "mtime": "2026-06-02T21:12:18.361Z",
-    "size": 350021,
-    "path": "../client/assets/index-DHprBXj6.js"
-  },
-  "/assets/styles-DHh14GRl.css": {
+  "/assets/styles-CNKlU2oH.css": {
     "type": "text/css; charset=utf-8",
-    "etag": '"12a7c-kIFvtaQtyZxX9jO8/dv2BetgPnM"',
-    "mtime": "2026-06-02T21:12:18.361Z",
-    "size": 76412,
-    "path": "../client/assets/styles-DHh14GRl.css"
+    "etag": '"12a95-pC/GU7ZsxFVM92ryUoepQ+H+Xeo"',
+    "mtime": "2026-06-03T02:06:57.273Z",
+    "size": 76437,
+    "path": "../client/assets/styles-CNKlU2oH.css"
   },
-  "/assets/penelope-copa-B6x9j9CI.png": {
+  "/favicon.png": {
     "type": "image/png",
-    "etag": '"222ca7-zb5VVsHwT/gFHdJQOWXdlUGdRRA"',
-    "mtime": "2026-06-02T21:12:18.401Z",
-    "size": 2239655,
-    "path": "../client/assets/penelope-copa-B6x9j9CI.png"
+    "etag": '"5e943-JqVCNUUK6ucGARpRsw7vVuhxQM4"',
+    "mtime": "2026-06-03T02:06:59.076Z",
+    "size": 387395,
+    "path": "../client/favicon.png"
   },
   "/assets/sentada-com-album-DJSRNH6N.png": {
     "type": "image/png",
     "etag": '"2386c2-x8y/Iomml5iHE5Kmsb2TB2J2eSE"',
-    "mtime": "2026-06-02T21:12:18.401Z",
+    "mtime": "2026-06-03T02:06:57.395Z",
     "size": 2328258,
     "path": "../client/assets/sentada-com-album-DJSRNH6N.png"
+  },
+  "/assets/penelope-copa-B6x9j9CI.png": {
+    "type": "image/png",
+    "etag": '"222ca7-zb5VVsHwT/gFHdJQOWXdlUGdRRA"',
+    "mtime": "2026-06-03T02:06:57.394Z",
+    "size": 2239655,
+    "path": "../client/assets/penelope-copa-B6x9j9CI.png"
   },
   "/assets/showcase-3-DIN0XLBe.jpg": {
     "type": "image/jpeg",
     "etag": '"2378b6-xWBd7ao8jzdXR2Uf4UaBv+Euvd4"',
-    "mtime": "2026-06-02T21:12:18.401Z",
+    "mtime": "2026-06-03T02:06:57.384Z",
     "size": 2324662,
     "path": "../client/assets/showcase-3-DIN0XLBe.jpg"
-  },
-  "/assets/showcase-1-B3v39w_e.jpg": {
-    "type": "image/jpeg",
-    "etag": '"2e38e7-VoP/VK+LGQlN4m17I/29d+rmZnk"',
-    "mtime": "2026-06-02T21:12:18.401Z",
-    "size": 3029223,
-    "path": "../client/assets/showcase-1-B3v39w_e.jpg"
   },
   "/assets/showcase-2-Cb6ZlmMc.jpg": {
     "type": "image/jpeg",
     "etag": '"2c2aa8-ZBZgW5VNXJSIDkQSPhlhfGCeGPA"',
-    "mtime": "2026-06-02T21:12:18.512Z",
+    "mtime": "2026-06-03T02:06:57.409Z",
     "size": 2894504,
     "path": "../client/assets/showcase-2-Cb6ZlmMc.jpg"
+  },
+  "/assets/showcase-1-B3v39w_e.jpg": {
+    "type": "image/jpeg",
+    "etag": '"2e38e7-VoP/VK+LGQlN4m17I/29d+rmZnk"',
+    "mtime": "2026-06-03T02:06:57.562Z",
+    "size": 3029223,
+    "path": "../client/assets/showcase-1-B3v39w_e.jpg"
   }
 };
 function readAsset(id) {
